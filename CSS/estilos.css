@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("../imagenes/imagenfondo.jpg"); 
+  background-size: cover; /* Escala la imagen para cubrir toda la pantalla */
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  }
+
+
+  .titulo-colorido {
+  background-color:#0B68D2;
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 5px;
+  
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 120px; /* Ajusta el tamaño según necesites */
+  z-index: 1000;
+}
+
+
+h2 {
+  color: #2c3e50;
+  text-align: center;
+  background-color: #d6dadc;
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+input, select {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+.recursos {
+  margin-top: 1%;
+  
+}
+
+.recursos ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.recursos li {
+  margin-bottom: 10px;
+}
+
+.recursos a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+.recursos a:hover {
+  text-decoration: underline;
+}
+
+.pie-pagina {
+  background-color: #0B68D2;
+  color: white;
+  text-align: center;  
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
